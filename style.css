@@ -1,0 +1,100 @@
+body {
+    background-color: beige;
+    background-image: url(cook\ photo.jpeg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    background-color:rgb(244, 158, 46) ;
+    justify-content: center;
+    color: rgb(133, 131, 131);
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid gray;
+   text-shadow: 0 2px 4px gray;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    text-align: center;
+    background-color: rgb(240, 174, 93);
+    color: bisque;
+    padding: 10px;
+}
+#menu {
+    background-color:rgb(245, 202, 150); 
+}
+#menu a {
+    
+    background-color: rgb(245, 202, 150);
+    text-decoration: none;
+    color:darkgray;
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    transition: all .3s;
+    
+}
+main {
+    display: flex;
+    
+}
+#image {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
+  
+}
+#image img{
+    width: 25%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+
+}
+a {
+    display: flex;
+}
+#arkaplan {
+    background-color: bisque;
+    font-style: italic;
+    color: gray;
+    font-size: medium;
+    margin: 70px;
+    padding: 20px;
+    width: 72%;
+}
+footer {
+    background-color: black;
+    color: white;
+    border: 1px;
+}
+main div p {
+    color: rgb(124, 124, 124);
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
